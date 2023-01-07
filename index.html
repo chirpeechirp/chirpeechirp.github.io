@@ -1,35 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) --> 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QVZWBWL30E"></script> 
-    <script>
+<!-- Google tag (gtag.js) --> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QVZWBWL30E"></script> 
+<script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'G-QVZWBWL30E');
     </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=yes">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ChirpeeChirp</title>
-    <meta property="og:image" content="https://chirpeechirp.github.io/img/facebook-main-banner.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://chirpeechirp.github.io/">
-    <meta property="og:site_name" content="ChirpeeChirp">
-    <meta property="og:title" content="ChirpeeChirp">
-    <meta property="og:description" content="Art Class progress and other fun things.">
-    <meta name="description" content="Art Class progress and other fun things.">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=yes">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>ChirpeeChirp</title>
+<meta property="og:image" content="https://chirpeechirp.github.io/img/facebook-main-banner.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://chirpeechirp.github.io/">
+<meta property="og:site_name" content="ChirpeeChirp">
+<meta property="og:title" content="ChirpeeChirp">
+<meta property="og:description" content="Art Class progress and other fun things.">
+<meta name="description" content="Art Class progress and other fun things.">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./css/styles.css">
+<link rel="icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <main>
-        <h1>Oh hi there!</h1>
-    </main>
-    <script src="./js/script.js"></script>
+<main>
+    <nav class="navbar navbar-expand-lg shadow-lg">
+        <div class="container"> 
+            <a class="navbar-brand" href="index.html"><img src="img/ChirpeeChirp-text.png" alt="ChirpeeChirp" width="100px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#other">Other Drawings</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="hero" id="hero">
+        <div class="heroText">
+            <h1 class="text-white"><img src="img/ChirpeeLogo.png" alt="ChirpeeChirp" width="350px"></h1>
+            <p class="text-secondary-white-color">Getting better at drawing, one step at a time</p>
+        </div>
+        <div class="imgWrapper"> <img src="img/hero-background.jpg" class="img-fluid hero-banner" alt=""> </div>
+        <div class="overlay"></div>
+    </section>
+    <section class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="mx-auto">
+                    <h2 class="mb-3" data-aos="fade-up">January 2023</h2>
+                    <p class="me-4" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="mx-auto">
+                <p class="copyright-text">© 2023 by ChirpeeChirp.</p>
+                <ul class="social-icon">
+                    <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+                    <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- JAVASCRIPT FILES --> 
+<script src="./js/plugins/jquery-3.6.3.min.js"></script> 
+<script src="./js/script.js"></script>
 </body>
 </html>
